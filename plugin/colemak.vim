@@ -21,10 +21,10 @@
     " y/Y = forward word/WORD
     nnoremap l b|xnoremap l b|onoremap l b|
     nnoremap L B|xnoremap L B|onoremap L B|
-    nnoremap u e|xnoremap u e|onoremap u e|
-    nnoremap U E|xnoremap U E|onoremap U E|
-    nnoremap y w|xnoremap y w|onoremap y w|
-    nnoremap Y W|xnoremap Y W|onoremap Y W|
+    "nnoremap u e|xnoremap u e|onoremap u e|
+    "nnoremap U E|xnoremap U E|onoremap U E|
+    "nnoremap y w|xnoremap y w|onoremap y w|
+    "noremap Y W|xnoremap Y W|onoremap Y W|
     cnoremap <C-L> <C-Left>
     cnoremap <C-Y> <C-Right>
 " }}}
@@ -55,8 +55,8 @@
     nnoremap Z <C-R>|xnoremap Z :<C-U>redo<CR>|
 " }}}
 " Visual mode {{{
-    nnoremap a v|xnoremap a v|
-    nnoremap A V|xnoremap A V|
+    "nnoremap a v|xnoremap a v|
+    "nnoremap A V|xnoremap A V|
     nnoremap ga gv
     " Make insert/add work also in visual line mode like in visual block mode
     xnoremap <silent> <expr> s (mode() =~# "[V]" ? "\<C-V>0o$I" : "I")
@@ -66,10 +66,10 @@
 " }}}
 " Search {{{
     " f/F are unchanged
-    nnoremap p t|xnoremap p t|onoremap p t|
-    nnoremap P T|xnoremap P T|onoremap P T|
-    nnoremap b ;|xnoremap b ;|onoremap b ;|
-    nnoremap B ,|xnoremap B ,|onoremap B ,|
+    "nnoremap p t|xnoremap p t|onoremap p t|
+    "nnoremap P T|xnoremap P T|onoremap P T|
+    "nnoremap b ;|xnoremap b ;|onoremap b ;|
+    "nnoremap B ,|xnoremap B ,|onoremap B ,|
     nnoremap k n|xnoremap k n|onoremap k n|
     nnoremap K N|xnoremap K N|onoremap K N|
 " }}}
